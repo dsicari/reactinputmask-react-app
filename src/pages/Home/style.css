@@ -1,0 +1,47 @@
+h1{
+  font-family: Ubuntu;
+  color: #8A99A8;
+}
+
+.cellphone-input{
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  width: 10%;
+  padding: 0;  
+  outline: none;
+  border: none;
+  background-color: transparent;
+  caret-color: #017CEB;
+}
+
+.accept-number{
+  color: #231F20;
+}
+
+.non-accept-number{
+  color: #8A99A8;
+}
+
+.guess{
+  color: #8A99A8;
+}
+
+.cellphone-number{
+  color: #8A99A8;
+}
+
+/* TODO: PROBLEM WITH COMPONENT WIDTH */
+@media only screen and (max-width: 1400px) {
+  .cellphone-input{
+    width: 13%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cellphone-input{
+    width: 50%;
+  }
+}
